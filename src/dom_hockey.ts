@@ -1,5 +1,5 @@
-import { ObjetoNoticia } from "./scrapper";
-import { GetHockeyNews } from "./scrapper";
+import { ObjetoNoticia } from "./scrapper_hockey";
+import { GetHockeyNews } from "./scrapper_hockey";
 
 export function criaElemento(noticias: ObjetoNoticia[]): void {
   //Seleciona a âncora em nosso html
